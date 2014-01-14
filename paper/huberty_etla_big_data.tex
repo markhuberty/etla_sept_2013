@@ -1,4 +1,6 @@
 \documentclass[12pt]{article}
+\usepackage{natbib}
+\usepackage{hyperref}
 
 \title{I expected a Model T, but instead I got a loom:\\ Awaiting the second big data revolution}
 \author{Mark Huberty\thanks{Prepared for the 2013 BRIE-ETLA
@@ -27,4 +29,1113 @@ those seen to date. That fact has profound consequences for the kinds
 of investments and innovations firms must seek, and the economic,
 political, and social consequences that those innovations portend.
 \end{abstract}
+
+
+\section{Introduction}
+\label{sec:introduction}
+
+We believe that we live in an era of ``big data''. Firms today
+generate an increasing volume of data in the course doing business. As
+the cost of storing that data has fallen, and the ability to analyze
+that data has improved, firms have taken advantage of such data to
+improve business operations, identify new business opportunities, and
+build new products. While headline technology firms like Google or
+Facebook have led the pack in finding uses for such data, the imprint
+of cheap computation and ubiquitous data is also visible in retail,
+logistics, and manufacturing. Looking to the future, these same trends
+are thought to portend radical new innovations in autonomous machines,
+self-driving cars, and smart buildings. The cheerleaders of this data revolution
+proclaim that these changes, over time, will rival the industrial
+revolution in scope and consequences for economic and social
+prosperity. 
+
+Yet this ``big data'' revolution has so far fallen short of its
+promise. Precious few firms transmutate data into novel
+products. Instead, Google or Amazon make most of their income in ways
+indistinguishable from their ancestors in the newspaper or retail
+business. Big data has altered the scale, but not the means, of value
+creation. To be sure, that value helps fund useful products, from
+effective online search to maps to social networks. But newspapers
+were, and remain, useful as well. The big data revolution, understood
+as a fundamentally new means of generating value, has thus so far been
+one of degree, not kind.
+
+We thus find ourselves akin to denizens the 1840s who, having been
+promised cars by the Industrial Revolution, find themselves surrounded
+by looms. Instead of the Model T's radical transformation in personal
+mobility, we can afford the extra shirt courtesy of the spinning
+jenny. We experience the first industrial revolution as a revolution,
+to be sure--but not quite the one we had expected. 
+
+Realizing the second big data revolution will confront us with
+challenges vastly different from the first. Instead of the marginal
+improvements that brought us search and e-commerce, that revolution
+hopes to harness the potential of data to enhance real-world outcomes
+for disease, education, healthcare, and other complex phenomena. Doing
+so will confront scientific and engineering challenges of an entirely
+different scale than those overcome so far. Meeting these challenges
+will, as in the second industrial revolution, require a very different
+approach to business models, investment, innovation, and firm
+structures. 
+
+
+\section{Big data will be big because it's big (and other conventions)}
+\label{sec:convention-reality}
+
+The present enthusiasm for big data starts from the empirical
+observation that firms today can gather every more data, about an ever
+wider variety of subjects, at ever-decreasing cost. Big data's
+advocates claim that this data will enable significant improvements to
+business operations and efficiency; underpin a diverse new range of
+products and services; and significantly reduce the cost of many
+things that we enjoy today. Taken together, these changes herald a new
+industrial revolution that, like its predecessor, will fundamentally
+change how we govern, work, play, and live \citep{mayer2013big}.
+
+This conventional wisdom is perhaps best captured by McKinsey \&
+Company's 2011 report on big data \citep{mckinsey2011}. They begin
+with a straightforward definition of what should constitute big data:
+anything too large to analyze with conventional tools for data
+storage, querying, and analysis. Firms, they argue, will increasingly
+generate such data as part of normal business operations; and that
+firms who best exploit this data for both operational efficiency and
+product design will triumph over their competition.
+
+Exactly what firms should do with such data remains uncertain--indeed,
+that uncertainty is taken as part of big data's promise. Firms today
+generate huge amounts of what McKinsey terms ``digital exhaust''--the
+e-commerce server logs, customer service call recordings, social media
+interactions, and other data--as a byproduct of doing business. That
+exhaust has proven quite useful. Amazon uses such data to better
+target product recommendations. Wal-Mart uses it to optimize their
+logistical operations and further squeeze suppliers on price. Google
+uses it to target advertising more effectively. Facebook and LinkedIn
+use it to build brand loyalty through tying users ever more deeply to
+their friends and professional contacts.
+
+To accomplish these ends, these firms have embraced powerful new
+algorithmic techniques for studying data on an unprecedented
+scale. The Facebook social graph contains hundreds of millions of
+nodes, connected through tens of billions of edges
+\citep{DBLP:journals/corr/abs-1111-4503}. Estimates put Google Maps
+alone at twenty petabytes of data as of 2012, a volume unthinkable
+even a decade ago. The techniques to work with such data were
+pioneered first in academic research on machine learning and
+artificial intelligence.\footnote{The rise of such techniques gave
+birth to what eminent statistician Leo Breiman called the ``two
+cultures of statistical learning'' \citep{breiman2001statistical}.}
+But more recent progress has come from industry itself--academic
+research simply lacks reliable access to data at this scale to work
+from. Commercializing the tools for such data has become its own
+industry, with firms ranging from the generic (Hadoop and its
+siblings, for massively distributed data processing) to the highly
+specific (HortonWorks and its competitors, for studying web server
+logs).
+
+Cheap compute capacity and powerful tools have made big data
+possible. But arguably the most important development has been the
+source of the data itself. Most of the data that underpin's today's
+``big data'' business models comes as a byproduct of doing
+business. Google built a powerful search engine, and used the data it
+threw off to revolutionize the market for advertising. Amazon gathered
+customer purchasing data as part of selling merchandise, then built a
+novel recommendation system atop it. Facebook's unparalleled data on
+human relationships uses the social
+connections that its users generate as a byproduct of communicating
+with friends. Having built a data gathering system, each of these
+companies enjoyed an effectively free flow of data.\footnote{Of
+  course, this data isn't really ``free''. They provide costly
+  services in order to attract users. But the cost of those services
+  likely runs far below the actual value of the data they receive in
+  return.} What to do with it, rather than how to get it, became the
+operative problem.
+
+Insight hasn't been so easy to mass-manufacture. Hence, the
+McKinsey authors conclude, the next challenge for big data lies in 
+people and processes, not storage and compute power. Today, the talent
+required to study, design, and implement big data products and
+services is scarce and expensive. With ``data scientists'' enjoying
+record demand, firms face the challenge of transforming themselves
+into places that data analysts want to work. In many cases, that has
+proven quite difficult. Many organizations fare poorly when told that
+their suppositions about customers, products, or markets are in fact
+not supported by data; or when informed, by their highly-paid
+analysts, that all their data can't help them (or worse yet, that the
+question has no answer). Yet such are the answers that good
+data-driven organizations should be prepared to hear.
+
+The conventional wisdom about ``big data'' points to a world of
+essentially free raw materials, which the right talent, enjoying
+powerful tools and working in enlightened organizations, can turn into
+business gold. The proof of such wisdom comes by demonstration: the
+billion-dollar businesses that Google, Amazon, and Facebook built by
+following this script to a T. If they could do it with what now appear
+to be comparatively primitive tools, then surely the big data future
+is one of unlimited opportunity?
+
+
+\section{A revolution constrained: data, potential, and value creation}
+\label{sec:but-what-can}
+
+Yet this conventional wisdom falls short of the hype that it
+preaches. Google, Facebook, and Amazon are enormously successful
+businesses. But they remain advertisers and retailers. They have used
+their unprecedented data to generate huge revenues--but have done so
+through century-old models of value creation. Without denigrating
+advertising or retail, both are very far from the maximalist hype of
+the big data revolution--a revolution that is supposed to change the
+21st century in the way that steam, steel, or rail changed the
+19th. Big data has so far made it easier to sell things, target ads,
+or stalk long-lost friends or lovers. But it hasn't yet fundamentally
+reworked patterns of economic life, generated entirely new
+occupations, or radically altered relationships with the physical
+world. Big data thus appears oddly self-referential: we generate
+massive amounts of data in the process of buying, viewing, or
+stalking; with which we then sell, display, or track. This is a
+parochial world view for a movement that envisions revolution.
+
+Understanding how we might get from here to there requires a better
+understanding of how and why data--big or small--might create value in
+a world of better algorithms and cheap compute capacity. Close
+examination shows that firms have largely used big data to improve on
+existing business models, rather than adopt new ones; and that those
+improvements have relied data to describe and predict activity in
+worlds largely of their own making. Where firms have ventured beyond
+these self-constructed virtual worlds, the data have proven far less
+useful, and products built atop data far more prone to failure. 
+
+\subsection{What can data do?}
+\label{sec:what-can-data}
+
+Data can, in increasing order of difficulty, help describe today's
+world, predict tomorrow's, or infer causal relations between actions
+and outcomes. The proliferation of data has come with the suggestion
+that we can now describe, predict, or infer heretofore complex
+relationships without difficulty. Yet the experience of big data has
+not borne that suggestion out. As big data has ventured beyond
+advertising and retail, its attempts at valid descriptions,
+predictions, and inferences have run into problems. Moreover, those
+problems do not originate with a lack of sophisticated algorithms or
+insights. Instead, they point to inadequacy of most of our most common
+data. 
+
+\subsubsection{Describe}
+\label{sec:describe}
+
+
+\subsubsection{Predict}
+\label{sec:predict}
+
+Predicting the future portends big gains for a range of social and
+economic problems beyond just consumer behavior. Google's Flu service
+captures that promise most directly. In 2008, Google announced a new
+collaboration with the Centers for Disease Control (CDC) to track and report
+rates of influenza infection. Historically, the CDC had monitored US
+flu infection patterns through a network of doctors that tracked and
+reported ``influenza-like illness'' in their clinics and
+hospitals. But data from network took up to two weeks to reach the
+CDC--a long time in a world confronting SARS or avian flu. Developing
+countries with weaker public health capabilities faced even greater
+challenges. Google hypothesized that, when individuals or their family
+members got the flu, they went looking on the internet--via Google, of
+course--for medical
+advice. In a highly cited paper, \cite{ginsberg2008detecting} showed
+that they could predict region-specific influenza infection rates in the United
+States using Google search frequency data. Here was the true promise
+of big data--that we capitalize on data to better understand the world around us. 
+
+The subsequent history of Google Flu illustrates the shortcomings of
+the big data revolution. Google Flu has failed twice since its launch,
+during the 2009 and 2012 flu seasons. The patterns and reasons for
+failure speak to the limits of prediction. In 2009, Google Flu
+under-predicted flu rates during the H1N1 pandemic. Post-mortem
+analysis suggested that the different viral characteristics of H1N1
+compared with garden-variety strains of influenza likely meant that
+individuals didn't know they had a flu strain, and thus didn't go
+looking for flu-related information
+\citep{cook2011assessing}. Conversely, in 2012, Google Flu
+over-predicted influenza infections. Google has yet to discuss why,
+but speculation has centered on the intensive media coverage of an
+early-onset flu season, which may have sparked interest in the flu by
+healthy individuals \citep{butler2013google}.
+
+The problems experienced Google Flu provides a particularly acute
+warning of the risks inherent in trying to predict what will happen in
+the real world based on the exhaust of the digital one. Google Flu
+relied on a map--a mathematical relationship between online behavior
+and real-world infection. Google built that map on historic patterns
+of flu infection and search. It assumed that such patterns would
+continue to hold in the future. But there was nothing fundamental
+about those patterns, and Google had limited capacity to check whether
+they continued to hold, or to update its map in real time. Either a change in
+the physical world--a new virus--or the virtual one--media
+coverage--were enough to render the map inaccurate. The CDC's old
+reporting networks out-performed big data when it mattered most.
+
+\subsubsection{Infer}
+\label{sec:infer}
+
+The difficulty of predicting the real world with data from the virtual
+brings us to the hardest problem--inferring causal relationships
+between action and result. Both description and prediction rely on
+observed relationships. Often, those observations are enough on which
+to act. Most headline big data products--recommendation systems, search
+optimization, friend finders and ``people you may know'', and other
+retail, search, and social services rely on these correlations. But
+they can do so because (1) the consequences of failure are low, (2)
+the tolerance for error is high, and (3) the underlying data are
+closely related to the prediction problem--they are
+self-referential. Once again, this is not a criticism of these
+services as such--they all required significant technical expertise
+and social insight, and they underpin very successful business models. 
+
+But these circumstances are a far cry from Google Flu, which tried to
+map from virtual behavior--information seeking--to a very specific
+real-world medical conditions. In this case, the consequences of failure in
+epidemiology are high, the tolerance for error is low, and the data
+exist many degrees removed from the physical infection
+of interest.\footnote{The difference here is
+perhaps most apparent in the ``closely correlated'' search terms that
+Google rejected from Flu. For instance, because flu season begins in
+the fall, searches for high school football were closely related to
+flu infection rates. Such spurious correlations likely abound in ``big
+data'' projects, only to be discovered after they've polluted
+predictions. For example, the 2008 KDD Cup, an annual competition organized around a
+central forecasting problem, was won by a team that discovered an
+entirely spurious correlation between the order of patients entered
+into the dataset, and their likelihood of having cancer
+\citep{perlich2008breast}. Discovering this correlation required real
+insight and sensitivity from the winners, but is clearly useless for
+the actual problem.} Algorithmic similarities aside, flu prediction
+and ad sales are a world apart.
+
+Thus despite claims that big data means we replace our obsession
+with causality with a tolerance for correlation
+\citep{mayer2013big},\footnote{Parenthetically, the claim that 21st
+  century society is obsessed with causality is farcical. We're not
+  obsessed with causality--we're obsessed with post-hoc
+  causal rationalizations of correlations. The volatility and
+  occassionally utter inanity of most nutritional and
+lifestyle advice is testament to that fact.} causality remains the holy
+grail. It provides stronger evidence that the relationships we see
+today might still hold tomorrow, and informs how we might intervene to
+improve outcomes. And here is where most of today's ``big data'' models fall
+flat. Moving from the digital exhaust that creates most big data, to
+causal understandings of the relationship between action and reaction,
+poses problems much harder than either description or
+prediction. Those problems aren't easily solved by sophisticated
+machine learning algorithms, or by more data. 
+
+\subsection{Locating the value in data}
+\label{sec:locating-value-data}
+
+What, then, can data do? More data may, as
+\cite{halevy2009unreasonable} have argued, improve our ability to do
+each. But how does this translate into business value? Here is perhaps
+where the big data revolution has proven most underwhelming. Most
+headline big data business models have used their enhanced capacity to
+describe, predict, or infer in order to implement--albeit at
+impressive scale and complexity--centuries-old business models. Those
+models create value not from the direct exchange between consumer and
+producer, but via a web of transactions several orders removed from
+the creation of the data itself. Categorizing today's big data
+business models based on just how far they separate data generation
+from value creation quickly illustrates how isolated the monetary
+value of firms' data is from their primary customers. Having promised
+a first-order world, big data has delivered a third-order
+reality. Realizing the promise of the big data revolution will require
+a different approach if a first-order world is to be realized.
+
+
+\subsubsection{Third-order value creation: the newspaper model}
+\label{sec:third-order-value}
+
+Most headline big data business models do not actually make money from
+their customers directly. Instead, they rely on third parties--mostly
+advertisers--to generate profits from data. The actual creation and
+processing of data is only useful insofar as it's of use to those
+third parties. In doing so, these models have merely implemented, at
+impressive scale and complexity, the very old business model used by
+the newspapers they have largely replaced.
+
+If we reach back into the dim past when solvent newspapers were viable
+businesses (rather than hobbies of the civic-minded rich), we will
+remember that their business model had three major components:
+
+\begin{enumerate}
+\item Gathering, filtering, and analyzing news
+\item Attract readers by providing that news at far below cost
+\item Profit by selling access to those readers to advertisers
+\end{enumerate}
+
+As the newspaper model matured, the selling of access became more and
+more refined: newspapers realized that people who read the business
+pages differed from those who read the front page, or the style
+section. Front-page ads were more visible to readers than those buried
+on page A6. Newspapers soon started pricing access to their readers
+accordingly. Bankers paid one price to advertise in the business
+section, clothing designers another for the style pages. This
+segmentation of the ad market evolved as the ad buyers and sellers
+learned more about whose eyeballs were worth how much, when, and
+where.
+
+Newspapers were thus third-order models. The news services they
+provided were valuable in their own right. But readers didn't pay for
+them. Instead, news was a means of generating attention and data,
+which was only valuable when sold to third parties in the form of ad
+space. Data didn't directly contribute to improving the headline
+product--news--except insofar as it generated revenue could be plowed
+back into news gathering. The existence of a tabloid press of dubious
+quality but healthy revenues proved the weakness of the link between
+good journalism and profit.
+
+From a value creation perspective, Google, Yahoo, and other ad-driven
+big data businesses are nothing more than newspapers at scale. They
+too provide useful services (then news, now email or search) to users
+at rates far below cost. They too profit by selling access to those
+users to third-party advertisers. They too accumulate and use data to
+carve up the ad market. The scale of data they have available, of
+course, dwarfs that of their newspaper ancestors. This has allowed
+them to target ads far more successfully, and serve ads far more
+cheaply, than the newspapers ever could. But the business model
+itself--the actual means by which these firms earn revenues--is
+identical. 
+
+\subsubsection{Second-order value creation: the retail model}
+\label{sec:second-order-value}
+
+
+Big-box retail ranks as the other substantial success for big
+data. Large retailers like Amazon, Wal-Mart, or Target have very
+effectively used data to optimize their supply chain, identify trends
+and logistical issues ahead of time, and maximize the likelihood of
+both initial sales and return business from their customers. 
+
+But at the end of the day, these businesses remain retailers. Big data
+may enable them to operate more efficiently. But that efficiency is in
+service of a model of value generation--retail--that has existed for a
+very long time. As with Google and ads, big data has enabled these
+retailers to attain scale and complexity heretofore unimaginable. In
+doing so, at least some of their profitability has come from market
+power over suppliers, who lack the access and data the retailers
+command. But the fundamental means by which they create value is no
+different than it was fifty years ago.
+
+Retailers are thus second-order big data models. Unlike third-order
+models, the data they gather has a lot of direct value to the
+retailer. They don't need to rely on third party purchasers to give
+the data value. But the actual moneymaking transaction--the retail
+sale of goods and services--remains separated from the uses of data to
+improve operational efficiency. 
+
+%% Where do things like search fit in. Companies like Ravel--making
+%% better use of data that already exists. Differ from the models
+%% below--where people set out to gather data and turned it into
+%% products. But people pay for the services, specifically for the
+%% service capability. 
+
+%% Role of data in value generation: most firm value-add comes from
+%% tools, not data (which already exists, albeit in difft
+%% form). Ravel's also not per se new -- just a new take on what
+%% Lexis, et al already do. So can ignore?
+
+\subsubsection{First-order value creation: the opportunity}
+\label{sec:first-order-value}
+
+We've seen that second- and third-order models find value in data
+several steps removed from the actual transaction that generates the
+data. But, as the Google Flu example illustrated, that data may have
+far less value when separated from its virtual context. First-order
+models, in contrast, build valuable products and services from data
+directly. They escape the Flu trap by building atop purpose-specific
+data, conceived and collected with the specific intent of solving
+specific problems. In doing so, they too capitalize on the cheap storage,
+powerful algorithms, and inexpensive compute power that made the first
+wave of big data firms possible. But they do so in pursuit of rather
+different problems.
+
+First order products remain in their infancy. But some nascent
+examples suggest what might be possible. IBM's Watson famously used
+its natural language and pattern recognition abilities to win
+Jeopardy!. But now IBM has adapted Watson to medical diagnosis. By
+learning from disease and health data gathered from millions of
+patients, Watson can improve the quality, accuracy, and efficacy of
+medical diagnosis and service to future patients.\footnote{See
+\cite{wired2013a} for early results of experiments showing that Watson
+can improve the accuracy of cancer diagnoses.} Watson closes the data
+value loop: patient data is made valuable because it improves patient
+services, not because it helps with insurance underwriting or product
+manufacturing or logistics or some other third-party service. The
+diversity of disease and the varied ways in which it can express
+itself means that Watson's big data capabilities help it improve on
+human judgment that could never incorporate such data alone.
+
+Premise Corporation\footnote{See \url{http://premise.is/}.}, a small startup, provides another
+example. Premise produces very granular data on macroeconomic
+aggregates like inflation, in regions of the world where official
+statistics are unavailable or unreliable. It builds products and
+services for financial firms, development agencies, and other clients
+directly on that data. There is a direct link between data
+generation and value, rather than an attenuated link through
+second-order operational efficiency or third-order demographic or
+commercial profiling. 
+
+Optimum Energy (OE)\footnote{See \url{http://optimumenergyco.com/}.} provides a final example. OE monitors and
+aggregates data on building energy use--principally data
+centers--across building types, environments, and locations. That data
+enables it to build models for building energy use and efficiency
+optimization. Those models, by learning building behaviors across many
+different kinds of inputs and buildings, can perform better than
+single-building models with limited scope. Most importantly, OE
+creates value for clients by using this data to optimize energy
+efficiency and reduce energy costs.
+
+These first-order business models all rely on data specifically
+obtained for their products. They deploy sensors and data gathering
+networks with specific hypotheses in mind, and build products directly
+atop those hypothesis. Watson diagnoses disease with disease data;
+Premise estimates inflation through specifically-targeted price data;
+OE instruments data centers and then tunes those centers with the data
+from those instruments.
+
+This reliance on purpose-specific data contrasts with third-order
+models that rely on data gathered for purposes wholly unrelated to the
+task at hand--what big data conventional wisdom calls ``digital
+exhaust.'' To use the newspaper example, third-order models
+assume--but can't specifically verify--that those who read the style
+section are interested in purchasing new fashions. Hence they sold ads
+about fashions, rather than stocks or lawnmowers or funeral
+services. But it was still a guess. Google's big contribution was to
+close this information gap a bit--to show that people who viewed web
+pages on fashion were likely to click on fashion ads. But again, the
+data that supports this is data generated by processes unrelated to
+actual purchasing--activities like web surfing and search or email
+exchange. 
+
+
+\subsubsection{Concept blurring}
+\label{sec:concept-blurring}
+
+We should not overstate the separation among these models. Google
+arguably contains all three: a third-order ad business model that
+relies, in part, on products dependent on first-order goods like email
+with effective spam detection or maps with StreetView, tuned with
+second-order processes to optimize customer satisfaction with those
+products. Many retailers--particularly vertically-integrated
+manufacturer-retailers-- gather customer data specifically to improve
+the quality or variety of the products they sell.
+
+But the distinction remains valid insofar as we're waiting for a big
+data revolution that does more than sell us ads or optimize
+operational efficiency. Most of the most promising products--the
+genetic, medical, economic, and social products that will directly
+improve our lives, rather than just serve to sell us stuff--rely on
+the hypothesis that big data will permit new forms of first-order
+value generation. Yet to date it has not. We should ask why. 
+
+\subsection{The unrealized promise of unreasonable data}
+\label{sec:unre-prom-unre}
+
+We should remember the root of the claim about big data. That claim
+was perhaps best summarized by \cite{halevy2009unreasonable} in what
+they termed ``the unreasonable effectiveness of data''. Most have
+taken that to mean that data--and particularly more data--are
+unreasonably effective \textit{everywhere} But that mis-states the authors'
+claims. They did not claim that more data was always better. Rather,
+they argued that for specific kinds
+of applications history suggested that gathering more data paid better
+dividends than inventing better algorithms. Where data are sparse, or
+the phenomenon under measurement noisy, more data allow a more
+complete picture of what we are interested in. Machine translation
+provides a very pertinent example: human speech and writing varies
+enormously within one language, let alone two. Faced with the choice
+between better algorithms for understanding human language, and more
+data to quantify the variance in language, more data appears to work
+better.\footnote{Not everyone is convinced. Peter Norvig, head of
+  research at Google, had a very public dispute with the linguist Noam
+Chomsky over whether progress in machine translation contributed
+anything at all to our understanding of human language. See
+\url{http://norvig.com/chomsky.html} for Norvig's account of this
+dispute and a link to Chomsky's position.} 
+
+For other applications, the ``bigness'' of data may not matter at
+all. If I want to know who will win an election, polling a thousand
+people might be enough. Despite claims by \cite{mayer2013big}, big
+data has not and will not replace sampling. Their infatuation with
+``N=all'', the idea that we no longer need sampling because we can
+observe the entire population, ignores the fact that in many cases we
+don't have to--or even want to.
+
+For other applications, the ``digital exhaust'' that generates so much
+big data may be entirely irrelevant. That exhaust today largely
+measures how people behave on the internet. Whether that translates
+into what they actually want in real life is an open question. 
+
+%% Industrial big data versus social big data. Industrial is likely
+%% fine, because we know the ground truth. 
+
+
+
+\subsection{The limits to third-order data}
+\label{sec:limits-third-order}
+
+Another way of stating the first/second/third order distinction is to
+distinguish between firms that measure real-world phenomena directly,
+versus those who infer it from ``digital exhaust''. Premise measures
+macroeconomic changes directly. Google infers consumer interests from
+their web browsing behavior. One measures the real world--the price of
+actual oranges on actual streets in actual cities. The other tries to
+model real-world interests from virtual-world behavior. They are both
+``big data'' companies, but the sources, opportunities, and limits of
+this data are very different. 
+
+In some circumstances, these differences may not matter. Google, after
+all, runs a very successful business. But they appear to matter most
+in those scenarios where we'd like big data to do the most
+work. Consider Google Flu. Google had shown that it could forecast
+rates of influenza in specific geographic regions from patterns of
+Google searches. To do so, they had to assume that people sick with
+the flu went looking for flu-related information on Google. That
+assumption was plausible, and turned out to show promise. The
+resulting Google Flu model generated accurate predictions faster and
+more cheaply than the Centers for Disease Control's flu reporting
+network.
+
+Yet Flu failed when public health authorities needed it most. It's
+first failure led it to significantly under-predict flu infections
+during the H1N1 epidemic of 2010. It's second failure saw it
+significantly over-predict infection rates during the 2012 flu
+season. We can't be sure exactly why this happened. In the first case,
+it appears that the exact symptoms of H1N1 were sufficiently different
+from the normal flu that people when looking for different things. In
+2012, abnormally intense coverage of an early flu season may have sent
+people flocking to Google to satisfy their curiousity, not their need
+for a cure.
+
+More abstractly, though, both failures stemmed from the same problem:
+Google Flu relied on a map between virtual measurements and the real
+world. So long as that map was accurate, so were its predictions. But
+that map was most likely to prove inaccurate when Google Flu might be
+most valuable--when the flu season was most abnormal. And Google had
+no way of detecting ahead of time what new items it should add to its
+map in order to prevent such failures. Such problems plague all 
+attempts to use third-order data to measure or predict real-world
+phenomena. 
+
+These limits on the usefulness of third-order data point to real
+limits to the progress that today's big data revolution will make. To
+date, we've often thought that we will get data for free, from the
+day-to-day business operations that throw off so much data. In some
+cases we might (particularly for industrial processes where the
+distinction between real-world and virtual-world behavior is kind of
+meaningless). But in most cases, the utopian dreams of a big data
+world will require actually setting out to measure and model the real
+world as it actually exists. 
+
+Why, then, are second- and third-order models so successful? In part
+because the downside risk of getting measurement or prediction wrong
+is very low. It matters little at the margins if Amazon recommends the
+wrong thing, or Google serves the wrong ad. It matters enormously if
+Watson diagnoses the wrong disease. Most second- and third-order
+models today can tolerate relatively high error rates. But the things
+we hope for in the future cannot. 
+
+
+\section{A loom, not a model T}
+\label{sec:loom-not-model}
+
+Much big data hype can be summed up in one phrase: that big data
+represents the biggest change in technological and economic possibility since the
+industrial revolution. That revolution, in the span of a century or
+so, fundamentally transformed almost every facet of human life. An
+English peasant living in 1800 enjoyed relatively few advantages over
+his Roman predecessor of eighteen centuries prior. Textiles were still
+woven by hand; foodstuffs were perhaps reliable, but not easily stored
+nor necessarily very diverse; steel was valuable but expensive to
+make; animal power provided most non-human labor. Water was not safe
+to drink, particularly in urban areas. Transportation was slow, and
+impossible in some seasons. 
+
+This peasant's Edwardian great grandchildren knew a very different
+world: of rapid transportation over air, sea, and land; of plentiful
+and cheap steel; of diverse and easily stored foodstuffs; of
+machine-made textiles; of municipal sewers that purged cholera from
+the cities; and of a world where the modern medicine
+was rapidly rendering the scourges of polio, smallpox, measles,
+and malaria treatable, if one contracted them at all. 
+
+Having ranked big data with the industrial revolution, we find
+ourselves wondering why our present progress seems so paltry in
+comparison. Google differs only in scale, but not mode of value
+creation, from a newspaper. Target still earns money by retail, not
+through some novel manipulation of nature or man. The fundamental
+advances in computation required to make these processes possible were
+largely made during and shortly after the Second World War. 
+
+% Delong quote from Mokyr: 
+% [the] first Industrial Revolution... had little or no scientific base…. [It] created a chemical industry with no chemistry, an iron industry without metallurgy, power machinery without thermodynamics… pragmatic bodies of applied knowledge in which things were know to work, but rarely was it understood why they worked…. Moreover, even when things were known to work, they tended to be inflexible and slow to improve… difficult to remove bugs, improve quality, and make products and processes more user-friendly without a more profound understanding of the natural processes involved… 
+
+We are in the position of someone who, in 1840, having been promised a
+Model T, looks around and sees only looms. Those looms were, to be
+sure, better than hand weaving. They made cloth cheaper, clothes more
+plentiful. But the innovations that turned the hand weaving of
+1815 into the power looms of 1830 weren't that radical. They were
+mostly water-powered--a far cry from the giant steam- or
+electricity-driven factories of the late 19th century. The cloth they
+made wasn't dramatically different than what had been woven by
+hand--more plentiful and cheaper, to be sure, but not substantially
+different.  
+
+Much of the value of the first industrial revolution was like
+this--differences of degree, rather than kind. The advances in organic
+chemistry, rapid personal transportation, shipping, air travel, pain
+medication, and other products had to wait for the second industrial
+revolution. That revolution saw the emergence of fundamentally
+different kinds of firms. Rather than improve on pre-existing
+processes, these firms invested in huge industrial research and
+development operations to discover and then commercialize new
+scientific discoveries. Those firms were matched by significant
+government investment in basic research and development, particularly
+in the United States and Germany. The talented tinkerers, craftsmen,
+and inventors that built the first power looms were replaced by the
+trained engineers, scientists, and managers of the major industrial
+concerns. They, in turn, drew on the much more abstract abstract
+advances in our fundamental understanding of physical, chemical, and
+information processes. These changes were expensive, complicated, and
+slow--so slow that John Stuart Mill despaired, as late as 1871, of
+human progress.
+
+
+\section{Consequences}
+\label{sec:consequences}
+
+We have a loom, but we envision the possibility of a Model T.  We can
+seem glimmers of this revolution in IBM's Watson. Watson does not rely
+on ``digital exhaust''. It does not create value by parsing customer
+data or optiimzing ad click-through rates (though presumably it
+could). It was not the product of a relatively few, straightforward
+(if ultimately quite useful) insights. Instead, IBM dedicated
+substantial resources to studying natural language processing,
+large-scale machine learning, knowledge extraction, and other
+problems. Watson represents an industrial synthesis of a series of
+complex innovations, which IBM intends to repurpose for a variety of
+commercial applications ranging from disease diagnosis to crime
+fighting. Watson is thus much closer to what big data's proponents
+have promised--but its methods are a world away from the easy hype
+about insights from digital exhaust.
+
+Realizing the value of big data will require a similar
+transformation. 
+
+% MAke sure to cite the Rao piece, Entrepreneurs are the new labor
+
+
+\section{Dystopia}
+\label{sec:dystopic-future}
+
+Big data and the Silicon Valley culture in which it emerged have
+suffered whithering criticism for overly optimistic
+techno-utopianism.\footnote{See here in particular Alex Payne's
+  ``Letter to a Young Programmer'', and his related talks, focusing on
+  the insularity of modern investing and its extreme
+  risk-aversion. See
+  \url{https://al3x.net/2013/05/23/letter-to-a-young-programmer.html}.}
+
+\subsection{The Benthamite dystopia}
+\label{sec:benthamite-dystopia}
+
+\begin{quote}
+  Yearly reminder: unless you're over 60, you weren't promised flying
+  cars. You were promised an oppressive cyberpunk dystopia. Here you
+  go.\\
+
+  \vspace{12pt}
+  Kyle Marquis, via Twitter
+\end{quote}
+
+First, a dystopia of abuse. During the first industrial revolution,
+Jeremy Bentham proposed that we solve the prison problem with
+technology, rather than better social policy. His Panopticon
+``[ground] rogues honest'' with minimal human effort, allowing the
+jailers to watch their inmate charges while leaving the inmates
+unawares. Attempts to implement this innovation proved impractical
+with 19th century technology.
+
+But the confluence of cloud computing and big data services have
+simplified the problem. The centralization of diverse data about large
+numbers of people onto the servers of a limited number of
+firms--usually for reasons having nothing to do with surveillance per
+se--has made the Panopticon trivial. Indeed, the very technologies
+that permit that data to serve better ads, predict consumer wants, or
+anticipate new trends are equally well suited to a mass surveillance
+state. 
+
+Sadly, it appears such a dystopia has crept up upon us, at least in
+the United States. The whistleblower disclosures about the NSA PRISM
+program portray a sophisticated effort to access, mine, and act on the
+communications traffic of correspondence between foreigners and
+American citizens. Whether by design or accident, that program spied
+on American citizens, possibly in violation of laws that prohibit the
+NSA from doing so. Congressional attempts to defund or otherwise
+curtail the program have, as of late 2013, been sparse and
+unsuccessful.
+
+Hence, in the US and barring a change of law, ``big data'' business
+models focused on people and behavior--the second and third order
+models in particular--will likely find themselves unwilling
+participants in system that many US citizens regard as a gross
+violation of their right to privacy. Citizens and governments overseas may think
+twice before doing business with these firms, or corresponding with
+those who do.\footnote{This has already begun. The European Union has
+  advised companies looking for cloud services to consider non-US
+  providers. Early reports estimated that the US could lose \$35-45
+  billion dollars in contracts by 2015 due to foreigners withdrawing
+  for PRISM-related reasons.\citep{babcock2013}. Brazil has openly
+  stated the intent to insulate its internal communications from
+  traffic passing through US networks \citep{bbc2013brazil}.} 
+
+\subsection{The Downton Abbey dystopia}
+\label{sec:downt-abbey-dyst}
+
+Second, a dystopia of under-use. The origins of much of what we now
+know as big data lie in another era of artificial intelligence. And
+while we remain far from replicating consciousness on a chip, we've
+done quite well abstracting, standardizing, and automating what
+formerly were human activities. This process began with physical tasks
+like manufacturing\footnote{The old joke about the factory applies
+  here. A perfect factory is said to require only a man and a dog to
+  staff it. The man feeds the dog, and the dog makes sure the man
+  doesn't touch anything.} But it has now invaded formerly safe
+white-collar professions like accounting or legal services. Amazon has
+purchased a company that builds robots to automate its distribution
+centers--moving automation further up the retail value
+chain. Self-driving cars may, by the middle of the 21st century,
+replace taxis. The ability to learn and replicate a larger
+and larger share of both regular and (ostensibly) irregular means that
+a greater portion of human labor can now be automated. Like the first
+industrial revolution, that generates huge returns for those doing the
+automating. But it ravages employment for those being automated. 
+
+We have, of course, been through this before. The ``creative
+destruction'' of successive technological revolutions took us from a
+world where most of the population worked in agriculture, to one where
+most of it worked in factories, to one where most are now employed in
+services of some form. In each case, these transitions caused real
+hardship for those whose jobs were rendered superfluous. But they
+ultimately made all of society better off. 
+
+The combination of big data and algorithms threatens to break this
+chain of improvement. The industrial revolution endowed machines with
+the capacity to perform repetitive physical tasks. To do so, those
+machines embodied the knowledge of their human designers and
+operators. Big data now appears poised to displace the operators, in
+both physical tasks and repetitive white collar work. As our capacity
+to abstract mental tasks into codified steps improves, a larger and
+larger share of formerly middle-class tasks will become the purview of
+machines. 
+
+What would remain of the people that used to perform this work? The
+danger may lie in a kind of Downton Abbey society: one where, as in
+late Victorian and early Edwardian England, a few very
+wealthy individuals who can command the personal attention of a large
+servant class.\footnote{\cite{lindert1983reinterpreting} and \cite{lindert2000three} show that
+  income inequality in industrial England worsened over the course of
+  the 19th century, before beginning a correction in the early
+  20th. Inequality peaked in the late 1860s and early 1870s. The
+  subsequent decline of the English gentry and their Downton Abbey
+  existence occurred in part due to the growing expense of servant
+  labor.} The Downton Abbey version of this world isn't
+necessarily so bad. Unlike the reality of Edwardian domestic service,
+which could be quite difficult and cruel, Downton Abbey supplied a
+vision of a relatively benevolent upstairs class, and a sensitive and
+thoughtful, if less well-off, downstairs class. Lord Grantham may be
+a landed aristocrat, but at least within his household he comes off as
+responsive to the needs of his staff and interested in the development
+of his local community--so long as it doesn't require voting
+Labour. Such households surely existed, but were far from the norm.
+
+These changes may extend far beyond White collar middle management. As
+\cite{rao2012} has argued, the second industrial revolution
+transformed entrepreneurship as well. Where the first phase had seen
+the proliferation of small-scale entrepreneurship, the second
+replaced small owner-managers with a professionalized managerial class
+in large industrial concerns. He argues that entrepreneurship is going through just such a
+transformation. Vast riches from startups are, and always have been,
+rare. Instead, venture capital sees startup exit via acquisition--into
+a large and stable firm like Google or Facebook--as the preferred path
+for most investments. Those acquisitions turn entrepreneur-managers
+into product managers for one small niche of a large enterprise. In
+doing so, it mitigates some startup
+risk. But, as Rao points out, it also puts these entrepreneurs in the
+position of being, effectively, labor. The popularity of commodity startup
+incubators like YCombinator, for which entrepreneurship is a pure
+volume play, points to the commodification of entrepreneurs as
+well. 
+
+%% Something here about the fact that we'd once thought that industry
+%% would yield lesiure time--but our productiity keeps going up, and
+%% leisure time hasn't changed much (in the US, at least)
+
+\subsection{The Lehman dystopia}
+\label{sec:lehman-dystopia}
+
+Finally, a dystopia of misuse. Finance has a long lead on first-order
+business models for big data. Financial firms have eagerly sought data
+specifically for the purpose of building or refining financial
+products. That dates to well before computers--the house of Rothschild
+profited immensely from having received early warning of the outcome
+at Waterloo, courtesy carrier pigeons. More recently, financial firms
+have led their peer institutions in investing in information
+technology and sensor systems to improve the quality, quantity, and
+speed of data gathering. Entire classes of products--from
+high-frequency trading to derivatives and crop insurance--rely on such
+data and data analysis capabilities.
+
+Yet in 2008, this system, for all its analytic prowess, utterly
+failed. For a few days that September, normally sober people in
+high office openly wondered whether the financial system would
+collapse and take the rest of the economy with it. Several years
+later, JP Morgan Chase found itself liable for a billion dollars in
+reglatory fines, courtesy a faulty risk management model that exposed
+the bank to several billion dollars in related losses.\citep{kopecki2013} Around the same time,
+Knight Capital lost a half-billion dollars in less than an hour
+consequence of accidentally using out-of-date computer models for
+high-frequency trading \citep{strasburg2012}. More information, faster, does not seem to
+brought stability to even the largest and most sophisticated institutions.
+
+Most of the blame here lies in a combination of failed
+macro-prudential regulation and very cheap money. But the misuse of
+data plays an important part as well. Firms, having built
+sophisticated models of risk atop reams of historical data, thought
+themselves protected against the ravages of the market. Yet the very
+data that enabled their products had simultaneously blinded them to
+their extraordinary risk exposure. Whether the ensuing failures were the
+product of willful misdeeds or na\"ive assumptions does not avoid the
+fact that data lay at their core.
+
+The Lehman dystopia is thus a dystopia of misuse: of data-driven
+models that fail to deliver on their promise, consequence of
+poorly-designed, badly-executed ideas. It's a dystopia wherein
+organizations want the upside of big data without thinking too hard
+about where it might go wrong. And it's a dystopia of yes-men, where
+data becomes a means of confirming one's own biases--usually those
+coincident with short-term profits--rather than a means of
+understanding and operating in the world.
+
+The danger here is already visible.  Many companies now claim to offer
+``big data'' solutions that cut out the messy and expensive step of
+hiring statisticians and engineers--and the inconvenience of listening
+to them afterwards.\footnote{``Big data'' tools range from generic
+technologies designed to handle data, such as Hadoop; to tools highly
+tuned to specific problems, such as HortonWorks' server log processing
+technology. These tools facilitate, but don't promise to replace,
+human judgement in quantitative inference. Other companies, such as
+Tableau, promise to make big data accessible through interfaces that
+look like common spreadsheets. In an essay that bordered on parody,
+\cite{mehta2013} claimed that these tools would commodify the
+production of quantitative knowledge.} Instead, they promise to put
+big data in the directly in the hands of day-to-day business
+operations. But doing so is the equivalent of asking for the outputs
+of an industrial research lab without the investment. These tools can
+no more turn marketing people into data scientists than a chemistry
+set would have turned a 19th century craftsman into an industrial dye
+chemist. These business models--data science as a service, if you
+will--will almost certainly fail substantively, even if they profit in
+the short term.. We can only hope that they don't, as Lehman did,
+cause widespread damage along the way.
+
+%%%
+These dystopias each have their precedent in the industrial revolution
+to which big data is the supposed successor. Thyssen, Krupp, and IG
+Farben were innovative industrial firms as well as the incubators of
+the \textit{Wehrmacht} and Zyklon B. The early years of the industrial
+revolution saw widespread wage declines and enormous displacement of
+agricultural labor into the cities. We should remember that the
+Luddites weren't idle layabouts, but skilled craftsmen angry at the
+displacement of their hard-won knowledge and ability.  Consumer
+products were a font of unreliability, danger, and malfunction before
+product liability, testing, and standards emerged to prohibit the
+worst of the snake oils and help verify the rest. 
+
+% \subsection{The overtreatment dystopia}
+% \label{sec:overtr-dyst}
+
+% Finally, the ubiquity of data and analysis may confront us with a
+% problem long known to medicine: over-monitoring leads to
+% over-treatment, but does not obviously improve outcomes. Continuous
+% fetal monitoring during childbirth increases the rate of medical
+% intervention. Those interventions do not appear to improve outcomes
+% for either mother or child--and in some cases are demonstrably worse
+% than no intervention at all. Likewise, regular cancer screenings
+% appear to lead to unnecessary medical interventions, particularly for
+% very slow-growing varieties such as prostate cancer that pose little
+% risk to the patient.  
+
+
+
+
+\section{Wherefore big data?}
+\label{sec:wherefore-big-data}
+
+Given the limitations, and potential abuses, of big data, wherefore
+the present enthusiasm? It may be due to a confluence of two
+factors. First, much of the big data discussion has, we have seen,
+gone awry for assuming that data from the online world contains
+answers to problems we face offline. Those enthusiastic about big data
+in all its forms thus appear to get the question backwards: they
+assume that we have data and the capacity to analyze it, and hence
+will find answers if we simply look hard enough. 
+
+But that is wrong, for the reasons this essay has taken pains to
+outline. We have few good reasons to assume that individuals' offline
+and online behaviors coincide perfectly. We have even less reason to
+believe that our algorithms are sufficiently discerning so as to
+detect when those behaviors diverge. Instead, the more operative
+question should be this: what questions do we wish to answer, and how
+can we employ cheap compute power, sensing, and storage to do so?
+
+That it's been so hard to re-frame the big data conversation may
+suggest something deeper. In many cases, big data appears to be a
+decidedly second-best solution to problems we once solved with
+government. Epidemiology, or (to take another favorite example),
+monitoring the safety of roadways and bridges, were for many years
+public functions. But the early 21st century is not a time of great
+faith in government. Hence the tasks we once left to bureaucrats to
+manage, we now try to solve with data that were never intended for the
+task. 
+
+Take infrastructure monitoring as one example. Today, the American
+Society of Civil Engineers estimates that US infrastructure will
+require \$3.6 trillion in investment by 2020 to bring the nation's
+dams, schools, roadways, bridges, and other infrastructure up to
+modern standards.\footnote{See
+  \url{http://www.infrastructurereportcard.org/}.} Bridges alone
+likely require twice as much funding as they presently receive. With
+so critical a problem, real-time monitoring of infrastructure would
+appear superfluous. But instead we talk of using real-time sensors to
+alert us to what we already know: that the state of the nation's
+infrastructure is sub-par, 
+
+% \section{What role for government}
+% \label{sec:what-role-government}
+
+
+
+% This alone may explain why we so consistently assume that there must
+% be answers to unposed questions hiding in big data. So many of those
+% questions refer to problems, whether on crime or epidemiology or civil
+% infrastructure, that we once referred to governments to handle. Take
+% road and bridge safety monitoring. Today, if you wanted to know more
+% about the sorry state of America's roads and bridges, you could ask
+% the Federal Highway Authority. They would tell you that bridge funding
+% is probably 50\% too low to keep infrastructure in an adequate state
+% of repair. Failing that, you could ask the American Society of Civil
+% Engineers, who would say that we're short \$3.6 trillion worth of
+% infrastructure spending on roads, bridges, dams, schools, and other
+% public facilities. 
+
+% With numbers like that, we don't really need big data. 
+
+\section{Awaiting the big data revolution}
+\label{sec:awaiting-big-data}
+
+We're stuck in the first industrial revolution. We have the power
+looms and the water mills, but wonder, given all the hype, where we put the Model Ts and
+telegraphs. The answer is a hard one. The big gains from big data will
+require a transformation of organizational, technological, and
+economic operations on par with that of the second industrial
+revolution. Then, as now, firms had to invest heavily in industrial
+research and development to build the foundations of entirely new
+forms of value creation. Entirely new business models emerged, where
+the first revolution marked only marginal changes of scope or scale. 
+
+
+
+
+
+% Here: most things are basically doing (1) and (2), with some (3)
+% thrown in to figure out how best to monetize it. Furthermore, the
+% worlds that we do best are those of our own making--purchasing
+% behavior, online social interaction, recommendation systems, and so
+% for. Trying to use online data to do offline prediction has been
+% fraught with problems--look at Google Flu. Even when online systems
+% are used for crowd-sourced offline data, things start to look
+% weird. See, for instance, Sean Taylor's paper on the distorting
+% dynamics of human psychology on rating systems like Yelp. 
+
+% Whether ``big data'' does any of these things in ways better or
+% different from earlier ``small data'' depends heavily on the problem
+% at hand. 
+
+% Google Flu predicts rates of inGoogle Flu's predictions Something like Google Flu was impossible prior to the advent
+% of large-scale search. But there's no particularly good reason that
+% the Centers for Disease Control couldn't have gotten the same--or even
+% better--results with an electronic reporting network.\footnote{In
+%   fact, the CDC has since upgraded their reporting network, which has
+%   significantly reduced the lag time between observing and reporting
+%   influenza-like illnesses.} Google Flu was a second-best
+% approach--interesting in the US, but most useful in
+% less-developed countries with underdeveloped public health systems. 
+
+
+
+% \subsection{Social versus industrial exhaust}
+% \label{sec:industrial-exhaust}
+
+% Most big data today is probably virtual--the server logs, browsing
+% histories, and communication patterns that characterize how people
+% behave online. In turn, most applications built on that data are
+% themselves virtual--predicting what people want next from Amazon or who else
+% they might want to connect with on LinkedIn. As we've seen, where this
+% virtual data--the digital exhaust of online social processes--tries to
+% go offline, it faces real challenges.
+
+% Industrial data--output from manufacturing, used to detect, diagnose,
+% and solve problems or improve efficiencies--faces fewer risks in this
+% regard. Why? With social data, we have no ground truth--we don't
+% actually know that people who look for flu information online actually
+% have the flu. With industrial processes, though, we know that the
+% ground truth exists and is stable--machines are built to do a specific
+% thing, repeatedly. Humans are not. In other words, we cannot
+% introspect into the minds of those whose behaviors we observe
+% online. The assumptions we make to use data on those behaviors to
+% predict or measure things are all vulnerable to being proven
+% wrong--and we won't know they are wrong until our predictions go
+% awry. In contrast, we know exactly what industrial systems are
+% supposed to do, and need make no assumptions about whether that should
+% continue to hold in the future. 
+
+
+
+% \section{Why does big data create value?}
+% \label{sec:why-does-big}
+
+% Thus the reality of big data does not, at present, live up to the hype
+% in its conventional wisdom. Yet well-known firms--Google, Amazon,
+% Walmart, or Macy's--earn billions of dollars annually through business
+% models that rely on huge datasets, massive computational power, and
+% sophisticated algorithmic analysis. If these firms have succeeded,
+% then why should we regard big data, so far, as hype?
+
+% We start by posing a basic question: where exactly in these
+% business models does ``big data'' actually generate profits? We will
+% quickly see that there are various \textit{degrees of separation}
+% between the actual generation of data and its role in value
+% creation. Today, successful big data business models generate value
+% several steps removed from the exchange at the heart of the data
+% generating process. But the real, as yet unrealized promise of big
+% data lies in first-order models that build valuable products directly
+% atop data. 
+
+
+
+
+
+% % 2nd / 3rd order models are self-referential--exhaust describes
+% % behavior inside a world of their own making. Work so long as you
+% % live inside that world, much harder outside it. 
+
+
+\bibliography{/home/markhuberty/bibs/bigdata}
+\bibliographystyle{apalike}
 \end{document}
