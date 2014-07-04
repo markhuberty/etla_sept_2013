@@ -2,7 +2,8 @@
 \usepackage{natbib}
 \usepackage{hyperref}
 
-\title{Awaiting the second big data revolution}
+\title{Awaiting the second big data revolution\\BRIE Working Paper
+  2014-03\thanks{Copyright 2014 Mark Huberty}}
 \author{Mark Huberty\thanks{Prepared for the 2013 BRIE-ETLA
     Conference, September 6-7, Claremont California. This paper has
     benefited from extended discussions with Cathrn Carson, Drew
@@ -125,7 +126,7 @@ exhaust" \citep{mckinsey2011}: the web server logs, e-commerce
 purchasing histories, social media relations, and other data thrown
 off by systems in the course of serving web pages, online shopping,
 or person-to-person communication. The $N$ covered by that data
-concerns only those who use these services--not society at large.
+concerns only those who use these services--not society at large. 
 
 Hence the uses of that data are limited. It's very relevant for
 understanding web search behavior, purchasing, or how people behave on
@@ -190,6 +191,17 @@ suggestions of schizophrenia among internet users. But the problem
 remains--we don't know what part of a person is faithfully represented
 online, and what part is not.
 
+Furthermore, even where online behavior may echo offline preferences
+or beliefs, that echo is often very weak. In statistical terms, our
+ability to distinguish ``significant'' from ``insignificant'' results
+improves with the sample size--but statistical significance is not
+actual significance. Knowing, say, that a history of purchasing some
+basket of products is associated with an increased risk of being a
+criminal may be helpful. But if that association is weak--say a
+one-hundredth of a percent increase--it's practical import is
+effectively zero. Big data may permit us to find these associations,
+but it does not promise that they will be useful. 
+
 \subsection{Behavior of all (today) = Behavior of all (tomorrow)}
 \label{sec:behave-today-tomorrow}
 
@@ -232,7 +244,16 @@ Facebook, what photos we can or cannot see on Flickr vary, often
 unpredictably. Facebook alone is rumored to run up to a thousand
 different variants on its site at one time. Hence even if culture
 never changed, our map from online to offline behavior would still
-decay as the rules of online systems continued to evolve.
+decay as the rules of online systems continued to evolve.\footnote{An
+  anonymous reviewer pointed out, correctly, that social researchers
+  have always faced this problem. This is certainly true. But many of
+  the features of social systems--political and cultural institutions,
+demography, and other factors--change on a much longer timeframe than
+today's data-driven internet services. For instance, US Congressional
+elections operate very differently now compared with a century ago;
+but change little between any two elections. Contrast that with the
+pace of change for major social media services, for whom two years
+may be a lifetime.}
 
 Compounding this problem, we cannot know, in advance, which of these
 social and technological changes will matter to our map. That only
@@ -243,8 +264,7 @@ Lest this come off as statistical nihilism, consider the differences
 in two papers that both purport to use big data to project the outcome
 of US elections. \cite{digrazia2013} claim that merely counting the
 tweets that reference a Congressional candidate--with no adjustments
-for demography, or spam, or even name confusion--can provide insight
-on whether that candidate will win his or her election. This is a
+for demography, or spam, or even name confusion--can forecast whether that candidate will win his or her election. This is a
 purely ``digital exhaust'' approach. As \cite{huberty2013twitter}
 shows, that approach adds no predictive value
 above and beyond just guessing that the incumbent party would win--a
@@ -333,12 +353,13 @@ course--for medical advice. In a highly cited paper,
 \cite{ginsberg2008detecting} showed that they could predict
 region-specific influenza infection rates in the United States using
 Google search frequency data. Here was the true promise of big
-data--that we capitalize on virtual data to better understand the
+data--that we capitalize on virtual data to better understand, and
+react to, the
 physical world around us.
 
 The subsequent history of Google Flu illustrates the shortcomings of
 the first big data revolution. Google Flu has failed twice since its
-launch. The patterns and reasons for failure speak to the limits of
+launch. The patterns of and reasons for failure speak to the limits of
 prediction. In 2009, Google Flu under-predicted flu rates during the
 H1N1 pandemic. Post-mortem analysis suggested that the different viral
 characteristics of H1N1 compared with garden-variety strains of
@@ -391,13 +412,13 @@ understanding of how and why data--big or small--might create value in
 a world of better algorithms and cheap compute capacity. Close
 examination shows that firms have largely used big data to improve on
 existing business models, rather than adopt new ones; and that those
-improvements have relied data to describe and predict activity in
+improvements have relied on data to describe and predict activity in
 worlds largely of their own making. Where firms have ventured beyond
 these self-constructed virtual worlds, the data have proven far less
 useful, and products built atop data far more prone to failure. 
 
 
-\subsection{Locating the value in data}
+\subsection{Refining data into value}
 \label{sec:locating-value-data}
 
 
@@ -433,7 +454,7 @@ first big data revolution.
 \subsubsection{Third-order value creation: the newspaper model}
 \label{sec:third-order-value}
 
-Most headline big data business models do make much money directly from
+Most headline big data business models do not make much money directly from
 their customers. Instead, they rely on third parties--mostly
 advertisers--to generate profits from data. The actual creation and
 processing of data is only useful insofar as it's of use to those
@@ -442,7 +463,7 @@ impressive scale and complexity, the very old business model used by
 the newspapers they have largely replaced.
 
 If we reach back into the dim past when newspapers were viable
-businesses (rather than hobbies of the civic-minded rich), we will
+businesses (rather than hobbies of the civic-minded wealthy), we will
 remember that their business model had three major components:
 
 \begin{enumerate}
@@ -467,7 +488,7 @@ provided were valuable in their own right. But readers didn't pay for
 them. Instead, news was a means of generating attention and data,
 which was only valuable when sold to third parties in the form of ad
 space. Data didn't directly contribute to improving the headline
-product--news--except insofar as it generated revenue could be plowed
+product--news--except insofar as it generated revenue that could be plowed
 back into news gathering. The existence of a tabloid press of dubious
 quality but healthy revenues proved the weakness of the link between
 good journalism and profit.
@@ -485,32 +506,96 @@ newspapers could ever have managed. But the business model
 itself--the actual means by which these firms earn revenues--is
 identical.
 
+%% Think about this here. Basic question is what provides the value to
+%% data here -- reviewer's point is that it's human insight, not data
+%% itself. No a priori reason that this lesson should travel well
+%% elsewhere. 
+Finally, that value model does not emerge, fully-formed, from the data
+itself. Rather, the data were mere inputs to support a human
+insight--that what people looked for on the internet might be a good
+proxy for their consumer interests.
+
 \subsubsection{Second-order value creation: the retail model}
 \label{sec:second-order-value}
 
 
 Big-box retail ranks as the other substantial success for big
-data. Large retailers like Amazon, Wal-Mart, or Target have very
-effectively used data to optimize their supply chain, identify trends
-and logistical issues ahead of time, and maximize the likelihood of
-both initial sales and return business from their customers. 
+data. Large retailers like Amazon, Wal-Mart, or Target have harvested
+very fine-grained data about customer preferences to make increasingly
+accurate predictions of what individual customers wish to buy, in what
+quantities and combinations, at what times of the year, at what
+price. These predictions are occasionally shocking--as with Target's
+implicit identification of a pregnant teenager well before her father
+knew it himself, based solely on changes in her purchasing habits. 
 
-Big data
-may enable them to operate more efficiently. But that efficiency is in
-service of a model of value generation--retail--that has existed for a
-very long time. As with Google and ads, big data has enabled these
-retailers to attain scale and complexity heretofore unimaginable. In
-doing so, at least some of their profitability has come from market
-power over suppliers, who lack the access and data the retailers
-command. But the fundamental means by which they create value is no
-different than it was fifty years ago.
+
+
+can gather very
+fine-grained data about what goods their customers purchase, in what
+combinations, when, and at what price points. From this data, these
+retailers can, and have, built a detailed understanding of retail
+markets: what products are complements or substitutes for each other;
+exactly how much more people are willing to pay for brand names versus
+generics; how size, packaging, and placement in stores and on shelves
+matters to sales volumes.
+
+Insights built on such data have prompted two significant changes in
+retail markets. First, they have made large retailers highly effective at
+optimizing supply chains, identifying trends ahead of time, and
+managing logistical difficulties to minimize the impact on sales and
+lost competitiveness. This has multiplied their effectiveness versus
+smaller retailers, who lack such capabilities and are correspondingly
+less able to compete on price. 
+
+But it has also changed, fundamentally, the relationship of these
+retailers to their suppliers. Big box retailers have increasingly
+become monopsony buyers of some goods--think books for Amazon, or
+music for iTunes. But they are also now monopoly sellers of
+information back to their suppliers. Amazon, Target, or Wal-Mart have
+a much better understanding of their suppliers' customers than the
+customers themselves. They also understand these suppliers competitors
+far better. Hence their aggregation of information has given them
+substantial power over suppliers. This has had profound consequences
+for the suppliers. Wal-Mart famously squeezes suppliers on
+cost--either across the board, or by pitting suppliers against one
+another another based on detailed information of their comparative
+cost efficiencies and customer demand.
+
+Hence big data has, along with other trends in the retail sector,
+empowered very large retail relative to both its small competitors and
+its suppliers. Both groups lack access to the fine-grained information
+on cost, logistics, and demand that big retailers have made so
+effective use of. 
+
+But big data has not changed the fundamental means of value creation
+in the retail sector. Whatever its distributional consequences, the
+basic retail transaction--of individuals buying goods from retail
+intermediaries, remains unchanged from earlier eras. 
+
+% Edit this.
+What big data has changed, though, is power. The scope and scale of
+the data owned by Amazon or Wal-Mart about who purchases what, when,
+and in what combinations often means that they understand the market
+for a product far better than the manufacturer. Big data, in this
+case, comes from big business--a firm that markets to the world also
+owns data about the world's wants, needs, and peculiarities. Even as
+they are monosony buyers of many goods (think e-books for Amazon),
+they are correspondingly monopoly sellers of data. And that has made
+them into huge market powers on two dimensions, enabling them to
+squeeze suppliers to the absolute minimum price, packaging, size, and
+other product features that are most advantageous to
+\textit{them}--and perhaps to their customers. Big data has shifted
+the balance of power in the retail market, even if it has not actually
+changed the ultimate form of value creation for retail itself.
 
 Retailers are thus second-order big data models. Unlike third-order
 models, the data they gather has a lot of direct value to the
 retailer. They don't need to rely on third party purchasers to give
-the data value. But the actual moneymaking transaction--the retail
-sale of goods and services--remains separated from the uses of data to
-improve operational efficiency. 
+the data value. That data also has consequences for the distribution
+of surplus value in the market--how the retailer and manufacturer
+split the proceeds of the final sale. But the actual moneymaking
+transaction--the retail sale of goods and services--remains separated
+from the uses of data to improve operational efficiency.
 
 \subsubsection{First-order value creation: the opportunity}
 \label{sec:first-order-value}
@@ -572,7 +657,7 @@ efficiency and reduce energy costs.
 
 These first-order business models all rely on data specifically
 obtained for their products This reliance on purpose-specific data contrasts with third-order
-models that rely the ``digital exhaust'' of conventional big data
+models that rely on the ``digital exhaust'' of conventional big data
 wisdom. To use the newspaper example, third-order models assume--but
 can't specifically verify--that those who read the style section are
 interested in purchasing new fashions. Google's success stemmed from closing this
@@ -619,7 +704,7 @@ all. If I want to know who will win an election, polling a thousand
 people might be enough. Relying on the aggregated voices of a nation's
 Twitter users, in contrast, will probably
 fail \citep{gayo2011limits,gayo2012wanted,huberty2013}. Not only are
-we are not, as section \ref{sec:convention-reality} discussed, 
+we not, as section \ref{sec:convention-reality} discussed, 
 in the $N=All$ world that infatuated
 \cite{mayer2013big}; but for most problems we likely don't
 care to be. Having the right data--and consequently identifying the right
